@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.container {
+            background-color: aqua;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        div.item {
+            background-color: blueviolet;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <div class="container">
+        <div class="item">Exemplo de Boloco A</div>
+        <div class="item">Exemplo de Boloco B</div>
+        <div class="item">Exemplo de Boloco C</div>
+        <div class="item">Exemplo de Boloco D</div>
+        <div class="item">Exemplo de Boloco E</div>
+        <div class="item">Exemplo de Boloco F</div>
+        <div class="item">Exemplo de Boloco G</div>
+    </div>
+</body>
+</html>
